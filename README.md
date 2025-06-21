@@ -40,4 +40,4 @@ A minimal weather application that displays current conditions and a 12-hour for
 
 ## License
 
-Free to use and modify (MIT License)
+Free to use and modify
