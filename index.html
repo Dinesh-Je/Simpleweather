@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="weather-container">
+        <h1>Weather Forecast</h1>
+        <div class="search-container">
+            <input type="text" id="location" placeholder="Enter city name">
+            <button onclick="fetchWeather()">Get Weather</button>
+        </div>
+        <div class="weather-display">
+            <div class="current-weather">
+                <h2 id="current-location">Colombo, Sri Lanka</h2>
+                <div class="weather-main">
+                    <div id="current-temp">--°C</div>
+                    <div id="current-humidity">Humidity: --%</div>
+                </div>
+            </div>
+            <div class="hourly-forecast">
+                <h3>Next 12 Hours</h3>
+                <div id="hourly-data" class="hourly-data-container"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
